@@ -4193,11 +4193,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: f53f0e5cd92ba5148aace93d59b06aaf, type: 3}
       propertyPath: minDistanceFromEnv
-      value: 0.1
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: f53f0e5cd92ba5148aace93d59b06aaf, type: 3}
       propertyPath: staticEnvLayerMask.m_Bits
-      value: 12
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 21239396, guid: f53f0e5cd92ba5148aace93d59b06aaf, type: 3}
       propertyPath: m_SortingLayer
