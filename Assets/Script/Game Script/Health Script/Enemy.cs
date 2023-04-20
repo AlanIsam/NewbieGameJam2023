@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Enemy : MonoBehaviour
 {
-    public GameObject Player;
-    // Start is called before the first frame update
+    public HeartSystem _heartsystem;
+    public int damage;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("You are ded");
+            _heartsystem.TakeDamage(damage);
         }
     }
 }
