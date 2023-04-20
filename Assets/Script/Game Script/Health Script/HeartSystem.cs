@@ -5,12 +5,8 @@ using UnityEngine;
 
 public class HeartSystem : MonoBehaviour
 {
-
     [SerializeField] int life;
     public bool isDead;
-
-
-
     void Update()
     {
         if (isDead)
