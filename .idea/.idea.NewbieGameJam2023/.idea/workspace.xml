@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f67cfb13-fd11-45e9-b4de-34ffafcc4b76" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewbieGameJam2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewbieGameJam2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/RoomControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/RoomControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dumb Square.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dumb Square.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tile Pallete/Tile Pallete.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tile Pallete/Tile Pallete.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
@@ -104,7 +103,8 @@
       <workItem from="1681954739375" duration="3250000" />
       <workItem from="1681971707244" duration="894000" />
       <workItem from="1682078849805" duration="5109000" />
-      <workItem from="1682142228484" duration="5663000" />
+      <workItem from="1682142228484" duration="5664000" />
+      <workItem from="1682167456918" duration="2398000" />
     </task>
     <servers />
   </component>
