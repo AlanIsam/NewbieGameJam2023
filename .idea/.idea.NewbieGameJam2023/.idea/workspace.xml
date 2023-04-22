@@ -4,14 +4,17 @@
     <list default="true" id="f67cfb13-fd11-45e9-b4de-34ffafcc4b76" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewbieGameJam2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewbieGameJam2023/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Game Script/Health Script/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Game Script/Health Script/Enemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/RoomControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/RoomControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tile Pallete/Tile Pallete.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tile Pallete/Tile Pallete.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Game Script/Control Script/EnemyControl.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -100,7 +103,8 @@
       <workItem from="1681927549865" duration="566000" />
       <workItem from="1681954739375" duration="3250000" />
       <workItem from="1681971707244" duration="894000" />
-      <workItem from="1682078849805" duration="4480000" />
+      <workItem from="1682078849805" duration="5109000" />
+      <workItem from="1682142228484" duration="5663000" />
     </task>
     <servers />
   </component>
