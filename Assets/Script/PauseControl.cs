@@ -7,6 +7,7 @@ public class PauseControl : MonoBehaviour
 {
     [SerializeField]  GameObject pauseMenu;
     [SerializeField]  GameObject guideMenu;
+    public AudioSource buttonClick;
 
     void Update()
     {
@@ -28,6 +29,7 @@ public class PauseControl : MonoBehaviour
     {
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
+        buttonClick.Play();
     }
 
     public void Resume()
@@ -35,6 +37,7 @@ public class PauseControl : MonoBehaviour
         pauseMenu.SetActive(false);
         guideMenu.SetActive(false);
         Time.timeScale = 1f;
+        buttonClick.Play();
     }
     
     public void Guide()
@@ -42,12 +45,14 @@ public class PauseControl : MonoBehaviour
         guideMenu.SetActive(true);
         pauseMenu.SetActive(false);
         Time.timeScale = 0f;
+        buttonClick.Play();
     }
     
     public void Home(string sceneID)
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(sceneID);
+        buttonClick.Play();
     }
     
 }
