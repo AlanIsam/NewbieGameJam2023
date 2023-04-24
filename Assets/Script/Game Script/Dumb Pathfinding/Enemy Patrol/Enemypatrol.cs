@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class Enemypatrol : MonoBehaviour
 {
-    public float speed = 0.8f;
-    public float range = 3;
+    [SerializeField] float speed = 0.8f;
+    [SerializeField] float range = 3;
 
     private float startingY;
     int dir = 1;
