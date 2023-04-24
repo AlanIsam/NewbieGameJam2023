@@ -12,6 +12,8 @@ namespace PC2D
     {
         public float jumpRotationSpeed;
         public GameObject visualChild;
+        public AudioSource DashSound;
+       
 
         private PlatformerMotor2D _motor;
         private Animator _animator;
@@ -31,6 +33,7 @@ namespace PC2D
         // Update is called once per frame
         void Update()
         {
+
             if (_motor.motorState == PlatformerMotor2D.MotorState.Jumping ||
                 _isJumping &&
                     (_motor.motorState == PlatformerMotor2D.MotorState.Falling ||
@@ -76,6 +79,7 @@ namespace PC2D
                 }
                 else if (_motor.motorState == PlatformerMotor2D.MotorState.Dashing)
                 {
+                    DashSound.Play();
                     _animator.Play("Dash");
                 }
                 else

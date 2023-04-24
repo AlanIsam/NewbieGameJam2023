@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f67cfb13-fd11-45e9-b4de-34ffafcc4b76" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewbieGameJam2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewbieGameJam2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PC2D/Scripts/PlatformerAnimation2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PC2D/Scripts/PlatformerAnimation2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PC2D/Scripts/PlayerController2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PC2D/Scripts/PlayerController2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PauseControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PauseControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +113,8 @@
       <workItem from="1682238769062" duration="1470000" />
       <workItem from="1682242267334" duration="2421000" />
       <workItem from="1682315131634" duration="1434000" />
+      <workItem from="1682343514994" duration="2537000" />
+      <workItem from="1682348438477" duration="1441000" />
     </task>
     <servers />
   </component>

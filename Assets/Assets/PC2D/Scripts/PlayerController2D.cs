@@ -6,6 +6,10 @@ using UnityEngine;
 [RequireComponent(typeof(PlatformerMotor2D))]
 public class PlayerController2D : MonoBehaviour
 {
+    public AudioSource JumpSound;
+
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private LayerMask groundLayer;
     private PlatformerMotor2D _motor;
     private bool _restored = true;
     private bool _enableOneWayPlatforms;
@@ -28,6 +32,11 @@ public class PlayerController2D : MonoBehaviour
         _oneWayPlatformsAreWalls = _motor.oneWayPlatformsAreWalls;
     }
     // after leave freedom state for ladders
+    
+    private bool IsGrounded()
+    {
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+    }
     void FreedomStateRestore(PlatformerMotor2D motor)
     {
         if (_restored) // do not enter twice
@@ -50,6 +59,11 @@ public class PlayerController2D : MonoBehaviour
 
         // Jump?
         // If you want to jump in ladders, leave it here, otherwise move it down
+
+        if (Input.GetButtonDown(PC2D.Input.JUMP) && IsGrounded())
+        {
+            JumpSound.Play();
+        }
         if (Input.GetButtonDown(PC2D.Input.JUMP))
         {
             _motor.Jump();
