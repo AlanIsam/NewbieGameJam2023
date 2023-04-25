@@ -8,6 +8,7 @@ public class RoomControl : MonoBehaviour
     public GameObject virtualCamera;
     public GameObject Room;
     public GameObject[] enemies;
+    public AudioSource transitionSound;
     public Vector3[] enemiesInitialPosition { get; set; }
   
 
@@ -54,5 +55,7 @@ public class RoomControl : MonoBehaviour
             }
 
         }
+
+        transitionSound.Play();
     }
 }

@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f67cfb13-fd11-45e9-b4de-34ffafcc4b76" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NewbieGameJam2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NewbieGameJam2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/PC2D/Scripts/PlatformerAnimation2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PC2D/Scripts/PlatformerAnimation2D.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets/PC2D/Scripts/PlayerController2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PC2D/Scripts/PlayerController2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy Fly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy Fly.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/PauseControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PauseControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Game Script/Health Script/HeartSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Game Script/Health Script/HeartSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/RoomControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/RoomControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tileset PNG/nikita's tileset/recent newest/640x640.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tileset PNG/nikita's tileset/recent newest/640x640.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/Game Script/Control Script/EnemyControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Game Script/Dumb Pathfinding/Astar Pathfinding Flip/Astar flip script.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Game Script/Dumb Pathfinding/Enemy Patrol/Enemypatrol.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Game Script/End/WinScene.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -115,6 +119,7 @@
       <workItem from="1682315131634" duration="1434000" />
       <workItem from="1682343514994" duration="2537000" />
       <workItem from="1682348438477" duration="1441000" />
+      <workItem from="1682420094112" duration="6609000" />
     </task>
     <servers />
   </component>
