@@ -7,12 +7,18 @@ public class HeartSystem : MonoBehaviour
 {
     [SerializeField] int life;
     public bool isDead;
+    public GameObject deathscreen;
+    public GameObject player;
+    public GameObject playerSFX;
     void Update()
     {
         if (isDead)
         {
             Debug.Log("You are dead");
-            SceneManager.LoadScene("Death Screen");
+            deathscreen.SetActive(true);
+            Time.timeScale = 0;
+            player.SetActive(false);
+            playerSFX.SetActive(false);
             
         }
     }

@@ -7,6 +7,7 @@ using UnityEngine;
 public class PlayerController2D : MonoBehaviour
 {
     public AudioSource JumpSound;
+    public AudioSource WalkSound;
 
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
@@ -14,6 +15,7 @@ public class PlayerController2D : MonoBehaviour
     private bool _restored = true;
     private bool _enableOneWayPlatforms;
     private bool _oneWayPlatformsAreWalls;
+    private bool _isWalking = false;
 
     // Use this for initialization
     void Start()
@@ -80,8 +82,18 @@ public class PlayerController2D : MonoBehaviour
 
             return; // do nothing more
         }
-
+        
         // X axis movement
+        _isWalking = _motor.normalizedXMovement != 0;
+        if (_isWalking && IsGrounded())
+        {   if (!WalkSound.isPlaying)
+            WalkSound.Play();
+        }
+        else
+        {
+            WalkSound.Stop();
+        }
+
         if (Mathf.Abs(Input.GetAxis(PC2D.Input.HORIZONTAL)) > PC2D.Globals.INPUT_THRESHOLD)
         {
             _motor.normalizedXMovement = Input.GetAxis(PC2D.Input.HORIZONTAL);
