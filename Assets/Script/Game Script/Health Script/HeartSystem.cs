@@ -19,7 +19,7 @@ public class HeartSystem : MonoBehaviour
             Time.timeScale = 0;
             player.SetActive(false);
             playerSFX.SetActive(false);
-            
+
         }
     }
 
