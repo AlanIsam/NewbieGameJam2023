@@ -10,6 +10,8 @@ public class Timer : MonoBehaviour
     public TextMeshProUGUI timerText;
     public bool timerOn = false;
     [SerializeField] float timeLeft;
+    public GameObject winScreen;
+    public GameObject player;
 
     void Start()
     {
@@ -30,7 +32,8 @@ public class Timer : MonoBehaviour
                 timeLeft = 0;
                 timerOn = false;
                 timerText.color = Color.red;
-                SceneManager.LoadScene("Death Screen");
+                winScreen.SetActive(true);
+                player.SetActive(false);
             }
         }
     }
