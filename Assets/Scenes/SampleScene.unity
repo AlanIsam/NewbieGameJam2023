@@ -1383,6 +1383,8 @@ MonoBehaviour:
   timerText: {fileID: 1927334495}
   timerOn: 1
   timeLeft: 300
+  winScreen: {fileID: 189501337}
+  player: {fileID: 1905023045}
 --- !u!4 &90291002
 Transform:
   m_ObjectHideFlags: 0
@@ -88315,9 +88317,9 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536376919}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
-  m_UseFullKinematicContacts: 0
+  m_UseFullKinematicContacts: 1
   m_UseAutoMass: 1
   m_Mass: 57.28247
   m_LinearDrag: 0
